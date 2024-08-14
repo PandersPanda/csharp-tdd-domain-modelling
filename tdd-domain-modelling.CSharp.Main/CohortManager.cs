@@ -8,5 +8,9 @@ namespace tdd_domain_modelling.CSharp.Main
 {
     public class CohortManager
     {
+        public bool search(List<string> cohorts, string cohortName)
+        {
+            return cohorts.Contains(cohortName);
+        }
     }
 }
